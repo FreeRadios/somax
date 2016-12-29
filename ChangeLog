@@ -1,0 +1,65 @@
+2007.02.28	1.3
+	new interface
+	time with a progressbar and color indicator
+	somax-editor can connect to get info and paths
+	abort button in any operation
+	separated config file (config, vte, timer)
+	some bug fixed
+	new icons (tnx Martintxo) for local/remote files/directories
+	next item support
+	nextsong supports the reorder elements
+	preferences
+	No XmlSyntax
+	resizing time line
+	autosave of the transmissions
+	undo/redo
+	pause
+	
+2006.01.18	1.2
+	tooltips
+	es translation
+
+2005.10.27	1.1
+	somax with xml DTD
+	module supports
+	cursor GDK_WATCH
+	draw object with Low e High division
+	gtk_window_resize and not gtk_window_set_size_request
+	cvs
+	timer widget
+	list of song/spot with durations
+	soma_get_stat and soma_local_stat support
+	check durations in somax-editor
+	PreSpot and PostSpot
+
+2005.06.16	1.0
+	somax 0.4 -> 1.0 RELEASE!
+
+2005.06.09	0.4
+	add nextsong_spot support
+	add spot controller support
+	about
+	today button (on somax)
+	somax-config
+	xml palinsesto/spot file syntax
+
+2005.02.23	0.3
+	save on somax maker
+	Editor code new layout
+	print support
+	skip function
+	new menu layout
+	plugin support
+	timer setting
+	default palinsesto
+	autosave password
+	
+2005.01.23	0.2
+	Utf8 support
+	Button press on draw statusbar
+	Next Event timeout
+	SoftStop in the draw statusbar
+	Editor of palinsesti
+
+2005.01.14	0.1
+	First beta release

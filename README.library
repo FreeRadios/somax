@@ -1,0 +1,23 @@
+If you want use the parser of somax you can include this 2 file:
+	somax/parser.h	- for parsing functions
+	somax/data.h	- the data of palinsesto
+
+There are this function:
+
+struct somad_data *somax_palinsesto_parser_file         (char *filename);
+struct somad_data *somax_palinsesto_parser_buffer       (char *buffer);
+struct somad_data *somax_palinsesto_old_parser_file     (char *filename);
+struct somad_data *somax_palinsesto_old_parser_buffer   (char *buffer);
+
+void somax_palinsesto_parser_free                       (struct somad_data *);
+
+struct somad_spot_data *somax_spot_parser_file          (char *filename);
+struct somad_spot_data *somax_spot_parser_buffer        (char *buffer);
+struct somad_spot_data *somax_spot_old_parser_file      (char *filename);
+struct somad_spot_data *somax_spot_old_parser_buffer    (char *buffer);
+
+void somax_spot_parser_free                             (struct
+                                                         somad_spot_data *);
+
+To compile use pkg-config somax --cflags --libs
+

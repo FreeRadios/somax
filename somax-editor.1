@@ -1,0 +1,57 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.TH "Somax-editor" "1" "2007 Jan 28" "" "User Command"
+.SH "NAME"
+.LP 
+Somax\-Editor \- tool designed for writing the Somad main schedule file (the 'palinsesto' file) or the spot file, in a graphical manner.
+.SH "DESCRIPTION"
+.LP 
+Somax\-Editor is a tool designed for writing the Somad main schedule file (the 'palinsesto' file: /etc/somad/palinsesto.cfg normally) or the spot file (/etc/somad/spot.cfg normally), in a graphical manner.
+
+You can work on broadcasts, spot and whole schedule using the features of an advanced editor (selection, cut/paste, etcetera). You can open several files concurrent and save in different files types.
+
+It has be written in the GTK+ 2.x graphics libraries. and are projected to be easy and functional.
+
+From the command\-line, you can start it with the following sintax:
+.IP "\fBsomax\-editor\fR [options] <file1> <file2> ..."
+
+Where the options are for choose if you wish to edit a palinsesto or a spot file (see following). 
+.P
+You can choose these options from a nice graphic window too, if you starts the application only as 'somax\-editor' (without options nor files) in a graphical terminal.
+
+Somax\-editor may be run too from the Somax main window.
+.SH "OPTIONS"
+.LP 
+.IP "\-pl, \-\-palinsesto" 
+Start editing a new palinsesto file.
+.IP "\-sp, \-\-spot" 
+Start editing a new spot file.
+.IP "\-h, \-\-help" 
+Shows a short help and quits.
+.P
+After the application invocation a nice window appears, with all the 'palinsesto' or 'spots configuration options to fill. You can know about these options in the \fBpalinsesto.cfg(5)\fR or \fBspot.cfg(5)\fR manual pages.
+.SH "FILES"
+.LP 
+.IP \fI~/.somax/\fP 
+In the ~/.somax/ directory, all the Somax related applications stores its config files.
+.IP \fI/etc/somad/palinsesto.cfg\fP 
+The Somad system wide scheduling main file for the broadcasts (the 'palinsesto' file) that normally is writed/modified with this application (but from the application you can specify any other to write too).
+.IP \fI/etc/somad/spot.cfg\fP 
+The Somad spot controller file (the 'spots' file) that normally is writed/modified with this application (but from the application you can specify any other to write too).
+.SH "AUTHORS"
+.LP 
+.nf 
+Somad written by Andrea Marchesini <bakunin@autistici.org>
+Man page written by Martin Zelaia <martintxo@sindominio.net>
+.SH "SEE ALSO"
+.LP 
+.BR somad (1),
+.BR soma.cfg (5),
+.BR palinsesto.cfg (5),
+.BR spot.cfg (5),
+.BR somaclient (1),
+.BR somax (1)
+.BR somax\-config (1)
+.BR somax\-nextitem (1)
+
+http://www.somasuite.org/

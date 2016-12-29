@@ -1,0 +1,7 @@
+DOMAIN = $(PACKAGE)
+subdir = po
+top_builddir = ..
+XGETTEXT_OPTIONS = --keyword=_ --keyword=N_
+COPYRIGHT_HOLDER = Andrea Marchesini <bakunin@autistici.org>
+MSGID_BUGS_ADDRESS = soma@inventati.org
+EXTRA_LOCALE_CATEGORIES =

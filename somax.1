@@ -1,0 +1,60 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.TH "Somax" "1" "2007 Jan 28" "" "User Command"
+.SH "NAME"
+.LP 
+Somax \- Graphic client for control Somad (the somasuite's scheduler daemon).
+.SH "DESCRIPTION"
+.LP 
+SomaX is a complete client for control somad (the somasuite's scheduler daemon). It can be connected through SSL or clear\-mode, as well as through TCP and UNIX socket.
+
+It's provided with timeline and calendar, which shows all past, present and future broadcasts. You can zoom and modify runtime values.
+
+It has be written in the GTK+ 2.x graphics libraries. and are projected to be easy and functional.
+.SH "OPTIONS"
+.LP 
+There is'nt comand\-line options for start Somax, but you need to specify some parameters for start it. At start time Somax present a nice graphic window, where you can specify:
+.IP "Tcp Socket"
+About to choose a TCP socket.
+.IP "Server:" 
+Connect to this server (IP or server name, also 'localhost' if somad is running in this machine).
+.IP "Port:"
+Connect to this port. 12521 is the default port for somad.
+
+.IP "Unix Socket" 
+About to choose a unix socket.
+.IP "Unix:" 
+Specify the unix socket path. Default is /tmp/somad.sock.
+
+.IP "Password:"
+Use this password to connect to Somad. Leave blank if none is specificated in the Somad config.
+
+.IP "Remember data"
+Remember the introduced data from one Somax invocation to other.
+.IP "Use SSL connection"
+About if use a SSL encrypted connection to Somad or not. Use it if SSL connections are neded by the Somad config.
+.IP "Run somad as your user on this machine"
+About if start Somad prior to start Somax. Use it if Somad isn't running when you starts Somax. You can put the Somad command for start it in the following box (default: /usr/bin/somad).
+.P
+After this parameter's window is acepted, another window appears, with all the options to control a running Somad.
+.SH "FILES"
+.LP 
+.IP \fI~/.somax/\fP 
+In the ~/.somax/ directory, all the Somax related applications stores its config files.
+.SH "AUTHORS"
+.LP 
+.nf 
+Somad written by Andrea Marchesini <bakunin@autistici.org>
+Man page written by Martin Zelaia <martintxo@sindominio.net>
+.SH "SEE ALSO"
+.LP 
+.BR somad (1),
+.BR soma.cfg (5),
+.BR palinsesto.cfg (5),
+.BR spot.cfg (5),
+.BR somaclient (1),
+.BR somax\-editor (1)
+.BR somax\-nextitem (1)
+.BR somax\-config (1)
+
+http://www.somasuite.org/

@@ -1,0 +1,39 @@
+.\" Process this file with
+.\" groff -man -Tascii foo.1
+.TH "Somax-config" "1" "2007 Jan 28" "" "User Command"
+.SH "NAME"
+.LP 
+Somax\-Config \- tool designed for writing the somad configuration file in a graphical manner.
+.SH "DESCRIPTION"
+.LP 
+Somax\-config is a tool designed for writing the somad configuration file (/etc/somad/soma.cfg normally) in a graphical manner.
+
+It has be written in the GTK+ 2.x graphics libraries. and are projected to be easy and functional.
+.SH "OPTIONS"
+.LP 
+There is'nt comand\-line options for start Somax\-config. When you run the 'somax\-config' command in a graphical terminal, a nice window appears, with all the Somad configuration options to fill. You can know about these options in the \fBsoma.cfg(5)\fR manual page.
+
+Somax\-config may be run too from the Somax main window.
+.SH "FILES"
+.LP 
+.IP \fI~/.somax/\fP 
+In the ~/.somax/ directory, all the Somax related applications stores its config files.
+.IP \fI/etc/somad/soma.cfg\fP 
+The Somad system wide configuration file that normally is writed/modified with this application (but from the application you can specify any other to write too).
+.SH "AUTHORS"
+.LP 
+.nf 
+Somad written by Andrea Marchesini <bakunin@autistici.org>
+Man page written by Martin Zelaia <martintxo@sindominio.net>
+.SH "SEE ALSO"
+.LP 
+.BR somad (1),
+.BR soma.cfg (5),
+.BR palinsesto.cfg (5),
+.BR spot.cfg (5),
+.BR somaclient (1),
+.BR somax (1)
+.BR somax\-editor (1)
+.BR somax\-nextitem (1)
+
+http://www.somasuite.org/

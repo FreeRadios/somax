@@ -1,0 +1,62 @@
+To write  plugins for somax use these functions (from somax/plugin.h):
+
+	void somax_plgn_check_arg(int, char **);
+Check the argoments from main(int argc, char **argv). If the argoments are
+incorrect, this function close your plugin. Somax sends always correct 
+argoments.
+
+	void somax_plgn_set_description(char *);
+	void somax_plgn_set_author(char *);
+	void somax_plgn_set_name(char *);
+	void somax_plgn_set_licence(char *);
+	void somax_plgn_set_version(char *);
+These functions are used for set the plugin datas. SomaX use these informations
+for the about plugin window.
+
+	struct somad_data *somax_plgn_parser(void);
+If you want parse the palinsesto, use this function. This function parse the
+palinsesto from somax (no argoment because your plugin known the palinsesto
+with somax_plgn_check_arg function). The somad_data struct is in somax/data.h.
+
+	void somax_plgn_parser_free (struct somad_data *);
+Free the memory of a struct somad_data.
+
+	char *somax_plgn_get_file(void);
+Return the file of palinsesto that somax send to your plugin.
+
+	void somax_plgn_print_data(void);
+Send your information to somax.
+
+	void somax_plgn_free(void);
+Close your plugin.
+
+
+EXAMPLE:
+--- CUT ---
+
+#include <somax/plugin.h>
+#include <somax/data.h>
+
+int main(int argc, char **argv) {
+
+  /* Check is argoments are correct. If not exit */
+  somax_plgn_check_arg(argc, argv);
+
+  /* Set some datas */
+  somax_plgn_set_description("This is a test plugin");
+  somax_plgn_set_author ("Your name");
+  somax_plgn_set_name ("somax_test_plugin");
+  somax_plgn_set_licence ("GPL");
+  somax_plgn_set_version ("0.1");
+
+  /* Send you datas to somax */
+  somax_plgn_print_data ();
+
+  printf("The file is: %s\n",somax_plgn_get_file());
+
+  somax_plgn_free();
+}
+
+--- END ---
+
+cc plugin.c -o somax_test_plugin -lsomax_plgn `pkg-config glib-2.0 gtk+-2.0 --cflags --libs`

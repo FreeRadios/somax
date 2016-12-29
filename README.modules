@@ -1,0 +1,175 @@
+To write a module for somax you need to create a library .so witch this functions useful from somax:
+
+GtkWidget *somax_module_new(void);
+  This function must return a gtk widget that will be showed in somax
+  interface. SomaX runs this function any time that the editor is created.
+
+char *somax_module_name(void);
+  the name of the module.
+
+char *somax_module_get_value(GtkWidget *);
+  SomaX runs this function when it want the char * ModuleData of the trasmission
+  that use your module.
+
+void somax_module_set_value(GtkWidget *, char *);
+  SomaX runs this function when it want set the ModuleData value in your gtk
+  widget.
+
+-------------------------------------------------------------------------------
+EXAMPLE:
+
+mkdir soma_test
+cd soma_test
+
+soma_test.c
+--- CUT ---
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#else
+# error Use configure; make; make install
+#endif 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdarg.h>
+
+#ifdef ENABLE_SOMAX
+  #include <gtk/gtk.h>
+  #include <somax/module.h>
+#endif
+
+#include <soma/code.h> 
+#include <soma/commons.h>
+#include <soma/module.h>
+
+#define MODULE_NAME "soma_test"
+
+int
+module_init (char *data)
+{ 
+  return 0;
+}
+
+char ** 
+module_exec (char *module_data)
+{ 
+  char **arg = NULL;
+ 
+  arg=(char **)malloc(sizeof(char *)*2);
+  
+  arg0="/usr/bin/X11/xlogo";
+  arg1=NULL;
+
+ return arg;
+}
+
+int
+module_quit (char *data)
+{
+  return 0;
+}
+
+int
+module_time_stop (char *data)
+{
+  return 0;
+}
+
+char *
+module_name (void)
+{ 
+  return MODULE_NAME;
+}
+
+#ifdef ENABLE_SOMAX
+GtkWidget *somax_module_new(void) {
+  return gtk_label_new("Hello world!");
+}
+
+char *somax_module_name(void) {
+  return "Test Module";
+}
+
+char *somax_module_get_value(GtkWidget *widget) {
+  return g_strdup("Hello World!");
+}
+
+void somax_module_set_value(GtkWidget *widget, char *value) {
+  if(value)
+    puts(value);
+}
+
+#endif
+--- END ---
+
+configure.ac
+--- CUT ---
+AC_INIT(soma_test.c)
+AM_SANITY_CHECK
+AM_INIT_AUTOMAKE(soma_test,0.1)
+AM_CONFIG_HEADER(config.h)
+AM_MAINTAINER_MODE
+
+AC_PROG_CC
+AC_ISC_POSIX
+AC_PROG_RANLIB
+AC_PROG_LIBTOOL
+AC_PROG_INSTALL
+AM_PROG_CC_STDC
+
+AC_HEADER_STDC
+AC_HEADER_DIRENT
+
+AC_PATH_PROG(somaconfigpath, soma-config)
+AC_MSG_CHECKING(for soma through soma-config)
+if test "$somaconfigpath" = ""; then
+  AC_MSG_ERROR(No soma-config founded!)
+fi
+AC_MSG_RESULT(yes)
+
+SOMA_PREFIX=`$somaconfigpath --prefix`
+PATH_MODULE="$SOMA_PREFIX/share/soma"
+AC_SUBST(PATH_MODULE)
+
+SOMA_CFLAGS=`$somaconfigpath --cflags`
+CFLAGS="$CFLAGS $SOMA_CFLAGS"
+
+AC_ARG_ENABLE(somax,   --enable-somax           enable somax plugin (default=yes), somax=$enableval, somax=yes)
+
+AH_VERBATIM(ENABLE_SOMAX,#undef ENABLE_SOMAX)
+
+if test "$somax" = yes; then
+  PKG_CHECK_MODULES(SOMAX, 
+        somax
+        gtk+-2.0 >= 2.2.0
+        , somax=yes, somax=no)
+  if test "$somax" = yes; then
+    AC_DEFINE(ENABLE_SOMAX)
+    LDFLAGS="$LDFLAGS $SOMAX_LIBS"
+    CFLAGS="$CFLAGS $SOMAX_CFLAGS"
+  fi
+fi
+
+AC_OUTPUT(Makefile)
+--- END ---
+
+Makefile.am
+--- CUT ---
+pkglib_LTLIBRARIES = soma_test.la
+soma_test_la_SOURCES = soma_test.c
+soma_test_la_LDFLAGS = -module -avoid-version
+
+pkglibdir=@PATH_MODULE@
+--- END ---
+
+aclocal && autoheader && autoconf
+touch NEWS README AUTHORS ChangeLog
+automake -a
+
+./configure
+make
+make install
+
+make dist
+

@@ -1,0 +1,2535 @@
+# Italian translations for somax package.
+# Copyright (C) 2005 Andrea Marchesini <bakunin@autistici.org>
+# This file is distributed under the same license as the somax package.
+# root <bakunin@autistici.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: somax 0.4\n"
+"Report-Msgid-Bugs-To: soma@inventati.org\n"
+"POT-Creation-Date: 2007-03-06 07:48+0100\n"
+"PO-Revision-Date: 2005-09-04 19:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: soma <soma@inventati.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#: src/commons/commons.c:37
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: src/commons/commons.c:39
+msgid "Monday"
+msgstr "Lunedi'"
+
+#: src/commons/commons.c:41
+msgid "Tuesday"
+msgstr "Martedi'"
+
+#: src/commons/commons.c:43
+msgid "Wednesday"
+msgstr "Mercoledi'"
+
+#: src/commons/commons.c:45
+msgid "Thursday"
+msgstr "Giovedi'"
+
+#: src/commons/commons.c:47
+msgid "Friday"
+msgstr "Venerdi'"
+
+#: src/commons/commons.c:49
+msgid "Saturday"
+msgstr "Sabato"
+
+#: src/commons/commons.c:51 src/commons/commons.c:109
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: src/commons/commons.c:61
+msgid "Sun"
+msgstr "Dom"
+
+#: src/commons/commons.c:63
+msgid "Mon"
+msgstr "Lun"
+
+#: src/commons/commons.c:65
+msgid "Tue"
+msgstr "Mar"
+
+#: src/commons/commons.c:67
+msgid "Wed"
+msgstr "Mer"
+
+#: src/commons/commons.c:69
+msgid "Thu"
+msgstr "Gio"
+
+#: src/commons/commons.c:71
+msgid "Fri"
+msgstr "Ven"
+
+#: src/commons/commons.c:73
+msgid "Sat"
+msgstr "Sab"
+
+#: src/commons/commons.c:75 src/commons/commons.c:143
+msgid "???"
+msgstr "???"
+
+#: src/commons/commons.c:85
+msgid "January"
+msgstr "Gennaio"
+
+#: src/commons/commons.c:87
+msgid "February"
+msgstr "Febbraio"
+
+#: src/commons/commons.c:89
+msgid "March"
+msgstr "Marzo"
+
+#: src/commons/commons.c:91
+msgid "April"
+msgstr "Aprile"
+
+#: src/commons/commons.c:93 src/commons/commons.c:127
+msgid "May"
+msgstr "Maggio"
+
+#: src/commons/commons.c:95
+msgid "June"
+msgstr "Giugno"
+
+#: src/commons/commons.c:97
+msgid "July"
+msgstr "Luglio"
+
+#: src/commons/commons.c:99
+msgid "August"
+msgstr "Agosto"
+
+#: src/commons/commons.c:101
+msgid "September"
+msgstr "Settembre"
+
+#: src/commons/commons.c:103
+msgid "October"
+msgstr "Ottobre"
+
+#: src/commons/commons.c:105
+msgid "November"
+msgstr "Novembre"
+
+#: src/commons/commons.c:107
+msgid "December"
+msgstr "Dicembre"
+
+#: src/commons/commons.c:119
+msgid "Jan"
+msgstr "Gen"
+
+#: src/commons/commons.c:121
+msgid "Feb"
+msgstr "Feb"
+
+#: src/commons/commons.c:123
+msgid "Mar"
+msgstr "Mar"
+
+#: src/commons/commons.c:125
+msgid "Apr"
+msgstr "Apr"
+
+#: src/commons/commons.c:129
+msgid "Jun"
+msgstr "Giu"
+
+#: src/commons/commons.c:131
+msgid "Jul"
+msgstr "Lug"
+
+#: src/commons/commons.c:133
+msgid "Aug"
+msgstr "Ago"
+
+#: src/commons/commons.c:135
+msgid "Sep"
+msgstr "Set"
+
+#: src/commons/commons.c:137
+msgid "Oct"
+msgstr "Ott"
+
+#: src/commons/commons.c:139
+msgid "Nov"
+msgstr "Nov"
+
+#: src/commons/commons.c:141
+msgid "Dec"
+msgstr "Dic"
+
+#: src/commons/commons.c:224
+msgid "SSL error!"
+msgstr "Errore SSL!"
+
+#: src/commons/commons.c:228
+msgid "Connect error!"
+msgstr "Errore di connessione!"
+
+#: src/commons/commons.c:232
+msgid "Host unknown!"
+msgstr "Host non conosciuto!"
+
+#: src/commons/commons.c:236
+msgid "Protocol error!"
+msgstr "Errore di protocollo!"
+
+#: src/commons/commons.c:240
+msgid "Password error!"
+msgstr "Password errata!"
+
+#: src/commons/commons.c:244
+msgid "System error!"
+msgstr "Errore di sistema!"
+
+#: src/commons/commons.c:248
+msgid "No correct data!"
+msgstr "Dati scorretti!"
+
+#: src/commons/commons.c:254
+msgid ""
+"Somad is running with the SSL admin interface.\n"
+"Active the ssl encryption!"
+msgstr ""
+"Somad sta girando in modo criptato SSL\n"
+"Attiva la connessione criptata SSL!"
+
+#: src/commons/commons.c:260
+msgid ""
+"Somad is not running with the SSL admin interface.\n"
+"Deactive the ssl encryption!"
+msgstr ""
+"Somad non sta girando in modo criptato SSL\n"
+"Disattiva la connessione criptata SSL!"
+
+#: src/commons/commons.c:264
+msgid "Internal error!"
+msgstr "Errore interno!"
+
+#: src/commons/dialog.c:39 src/commons/dialog.c:82
+msgid "Question"
+msgstr "Domanda"
+
+#: src/commons/dialog.c:130
+msgid "Information"
+msgstr "Informazione"
+
+#: src/commons/help.c:53
+msgid "SomaX About..."
+msgstr "SomaX About..."
+
+#: src/commons/splash.c:100
+msgid "Test module:"
+msgstr "Testo il modulo:"
+
+#: src/commons/splash.c:105
+msgid "initialize data"
+msgstr "Inizializzazione dati"
+
+#: src/commons/stat.c:227 src/commons/stat.c:252 src/maker/maker_pl.c:3009
+#: src/maker/maker_spot.c:1663
+msgid "No information about this file!"
+msgstr "Nessuna informazione per questo file!"
+
+#: src/commons/stat.c:274
+msgid "Filename:"
+msgstr "Nome File:"
+
+#: src/commons/stat.c:279
+msgid "Title:"
+msgstr "Titolo:"
+
+#: src/commons/stat.c:284
+msgid "Author:"
+msgstr "Autore:"
+
+#: src/commons/stat.c:289
+msgid "Copyright:"
+msgstr "Licenza:"
+
+#: src/commons/stat.c:294
+msgid "Comment:"
+msgstr "Commento:"
+
+#: src/commons/stat.c:299 src/x/interface.c:899 src/x/interface.c:997
+msgid "Album:"
+msgstr "Album:"
+
+#: src/commons/stat.c:304 src/x/interface.c:914 src/x/interface.c:1012
+msgid "Year:"
+msgstr "Anno:"
+
+#: src/commons/stat.c:309
+msgid "Track:"
+msgstr "Traccia:"
+
+#: src/commons/stat.c:314 src/x/interface.c:929 src/x/interface.c:1027
+msgid "Genre:"
+msgstr "Genere:"
+
+#: src/commons/stat.c:319
+msgid "Start Time:"
+msgstr "Tempo di Inizio:"
+
+#: src/commons/stat.c:324 src/commons/stat.c:400
+msgid "Duration:"
+msgstr "Durata:"
+
+#: src/commons/stat.c:329
+msgid "Bitrate:"
+msgstr "Bitrate:"
+
+#: src/commons/stat.c:338
+#, c-format
+msgid "Stream %d:"
+msgstr "Stream %d:"
+
+#: src/commons/stat.c:372
+msgid "No information about this directory!"
+msgstr "Nessuna informazione per questa cartella!"
+
+#: src/commons/stat.c:394
+msgid "Dirname:"
+msgstr "Nome Directory"
+
+#: src/commons/x.c:182 src/commons/x.c:203 src/commons/x.c:242
+#, fuzzy
+msgid "Please Wait..."
+msgstr "Aspetta..."
+
+#: src/commons/x.c:215 src/commons/x.c:277
+#, fuzzy
+msgid "Abort"
+msgstr "About..."
+
+#: src/commons/interface.c:140
+msgid "Tcp Socket"
+msgstr "Socket TCP"
+
+#: src/commons/interface.c:154
+msgid "Server: "
+msgstr "Server:"
+
+#: src/commons/interface.c:162
+msgid "Port: "
+msgstr "Porta:"
+
+#: src/commons/interface.c:171 src/commons/interface.c:213
+msgid "Password: "
+msgstr "Password:"
+
+#: src/commons/interface.c:190
+msgid "Unix Socket"
+msgstr "Socket UNIX"
+
+#: src/commons/interface.c:204
+msgid "Unix: "
+msgstr "Unix:"
+
+#: src/commons/interface.c:227
+msgid "Advanced options..."
+msgstr "Opzioni avanzate..."
+
+#: src/commons/interface.c:234
+msgid "Remember data"
+msgstr "Ricorda dati inseriti"
+
+#: src/commons/interface.c:243
+msgid "Use SSL connection"
+msgstr "Usa connessione SSL"
+
+#: src/commons/interface.c:256
+msgid "Run somad as your user on this machine"
+msgstr "Lancia somad su questo computer con i tuoi permessi"
+
+#: src/commons/interface.c:266
+#, fuzzy
+msgid "Command:"
+msgstr "Commento:"
+
+#: src/commons/interface.c:373
+msgid "No Server?"
+msgstr "Nessun server?"
+
+#: src/commons/interface.c:378
+msgid "No Unix Path?"
+msgstr "Nessun socket UNIX?"
+
+#: src/commons/interface.c:396
+msgid "Somad does not start!"
+msgstr "Somad non e' partito!"
+
+#: src/draw/draw.c:1223
+msgid "1 day"
+msgstr "1 giorno"
+
+#: src/draw/draw.c:1231
+msgid "2 days"
+msgstr "2 giorni"
+
+#: src/draw/draw.c:1239
+msgid "1 week"
+msgstr "1 settimana"
+
+#: src/draw/draw.c:1247
+msgid "2 weeks"
+msgstr "2 settimane"
+
+#: src/draw/draw.c:1255
+msgid "1 month"
+msgstr "1 mese"
+
+#: src/draw/draw.c:1263
+msgid "2 months"
+msgstr "2 mesi"
+
+#: src/editor/color.c:35 src/maker/maker_pl.c:2715
+msgid "No transmission selected!"
+msgstr "Nessuna trasmissione selezionata!"
+
+#: src/editor/color.c:41
+msgid "No color setting for spot files!"
+msgstr "Non si puo' settare i colori nei file di spot!"
+
+#: src/editor/edit.c:65 src/maker/maker_pl.c:2047 src/x/maker.c:643
+msgid "Sure to remove this transmission?"
+msgstr "Sicuro di voler rimuovere questa trasmissione?"
+
+#: src/editor/edit.c:70
+msgid "Transmission deleted"
+msgstr "Trasmissione cancellata"
+
+#: src/editor/edit.c:79 src/maker/maker_spot.c:1004 src/x/maker.c:1187
+msgid "Sure to remove this spot element?"
+msgstr "Sicuro di voler rimuovere questo spot?"
+
+#: src/editor/edit.c:84
+msgid "Spot Element deleted"
+msgstr "Spot cancellato"
+
+#: src/editor/edit.c:118
+msgid "Transmission cutted"
+msgstr "Trasmissione tagliata"
+
+#: src/editor/edit.c:139
+msgid "Spot Element cutted"
+msgstr "Spot tagliato"
+
+#: src/editor/edit.c:172
+msgid "Transmission copied"
+msgstr "Trasmissione copiata"
+
+#: src/editor/edit.c:191
+msgid "Spot Element copied"
+msgstr "Spot copiato"
+
+#: src/editor/edit.c:217
+msgid "Transmission pasted"
+msgstr "Trasmissione incollata"
+
+#: src/editor/edit.c:228
+msgid "Spot Element pasted"
+msgstr "Spot incollato"
+
+#: src/editor/edit.c:252
+#, fuzzy
+msgid "Transmission: undo done"
+msgstr "Trasmissione tagliata"
+
+#: src/editor/edit.c:263
+#, fuzzy
+msgid "Spot Element: undo done"
+msgstr "Spot tagliato"
+
+#: src/editor/edit.c:287
+#, fuzzy
+msgid "Transmission: redo done"
+msgstr "Trasmissione tagliata"
+
+#: src/editor/edit.c:298
+#, fuzzy
+msgid "Spot Element: redo done"
+msgstr "Spot tagliato"
+
+#: src/editor/file.c:53
+#, c-format
+msgid "Error opening file %s!"
+msgstr "Errore nell'apertura del file: %s!"
+
+#: src/editor/file.c:74 src/editor/file.c:109
+msgid "This file is already opened!"
+msgstr "Questo file e' gia' aperto!"
+
+#: src/editor/file.c:84 src/editor/view.c:628 src/editor/view.c:1052
+#: src/maker/maker_pl.c:2691 src/x/timeout.c:601
+msgid "Somad Palinsesto syntax error"
+msgstr "Il palinsesto di somad ha una sintassi errata"
+
+#: src/editor/file.c:119 src/editor/view.c:643 src/editor/view.c:1069
+#: src/maker/maker_spot.c:1402 src/x/timeout.c:646
+msgid "Somad Spot file syntax error"
+msgstr "Il file di Spot di somad ha una sintassi errata"
+
+#: src/editor/file.c:140
+msgid "Open new file..."
+msgstr "Apertura nuovo file..."
+
+#: src/editor/file.c:144
+msgid "Open a new file..."
+msgstr "Apertura di un nuovo file..."
+
+#: src/editor/file.c:147
+msgid "Open file: aborted"
+msgstr "Apertura file: abortita"
+
+#: src/editor/file.c:157
+#, c-format
+msgid "File %s opened"
+msgstr "File %s aperto"
+
+#: src/editor/file.c:191 src/editor/file.c:255
+msgid "Save the new file..."
+msgstr "Salva il nuovo file..."
+
+#: src/editor/file.c:195 src/x/buttons.c:229 src/x/maker.c:536
+msgid "Save your palinsesto"
+msgstr "Salva il palinsesto"
+
+#: src/editor/file.c:198 src/editor/file.c:207 src/editor/file.c:262
+#: src/editor/file.c:271
+msgid "Save file: aborted"
+msgstr "Salvataggio file: abortito"
+
+#: src/editor/file.c:205 src/editor/file.c:269 src/x/maker.c:541
+#: src/x/maker.c:1048
+msgid "The file exists. Overwrite?"
+msgstr "Il file esiste. Sovrascrivere?"
+
+#: src/editor/file.c:218 src/editor/file.c:282 src/editor/file.c:340
+#: src/editor/file.c:370 src/editor/main.c:676 src/editor/view.c:95
+#: src/editor/view.c:105 src/editor/view.c:960 src/editor/view.c:969
+#: src/x/interface.c:1548 src/x/maker.c:491 src/x/maker.c:520
+#: src/x/maker.c:551 src/x/maker.c:1027 src/x/maker.c:1058 src/x/maker.c:1104
+msgid "Error writing on file."
+msgstr "Errore di scrittura del file."
+
+#: src/editor/file.c:220 src/editor/file.c:284
+msgid "Saved: error"
+msgstr "Salvataggio: errore"
+
+#: src/editor/file.c:235
+#, c-format
+msgid "Pl: %s"
+msgstr "Pl: %s"
+
+#: src/editor/file.c:240 src/editor/file.c:304 src/editor/file.c:349
+#: src/editor/file.c:379
+msgid "File saved!"
+msgstr "File salvato!"
+
+#: src/editor/file.c:259 src/x/buttons.c:424 src/x/maker.c:1043
+msgid "Save your spot file"
+msgstr "Salva il file di spot"
+
+#: src/editor/file.c:299
+#, c-format
+msgid "Spot: %s"
+msgstr "Spot: %s"
+
+#: src/editor/file.c:335 src/editor/file.c:365
+msgid "File saving..."
+msgstr "Salvataggio file..."
+
+#: src/editor/file.c:342 src/editor/file.c:372
+msgid "Save: error"
+msgstr "Salvataggio: errore"
+
+#: src/editor/file.c:404 src/editor/file.c:446 src/x/maker.c:82
+#: src/x/maker.c:92 src/x/maker.c:653 src/x/maker.c:663
+msgid "Exit without save?"
+msgstr "Uscire senza salvare?"
+
+#: src/editor/file.c:409 src/editor/file.c:451
+msgid "Closing..."
+msgstr "Chiusura..."
+
+#: src/editor/file.c:435 src/editor/file.c:477
+msgid "Closed"
+msgstr "Chiuso"
+
+#: src/editor/file.c:493
+msgid "New file..."
+msgstr "Nuovo file..."
+
+#: src/editor/file.c:507
+msgid "Palinsesto file or spot file?"
+msgstr "File di palinsesto o di spot?"
+
+#: src/editor/file.c:511
+msgid "Palinsesto File"
+msgstr "File di palinsesto"
+
+#: src/editor/file.c:517
+msgid "Spot File"
+msgstr "File di spot"
+
+#: src/editor/file.c:544 src/editor/file.c:555
+msgid "New editor created"
+msgstr "Creato Nuovo editor"
+
+#: src/editor/main.c:87 src/editor/maker.c:196
+msgid "New Spot File"
+msgstr "Nuovo file di Spot"
+
+#: src/editor/main.c:100 src/editor/maker.c:156
+msgid "New Palinsesto"
+msgstr "Nuovo Palinsesto"
+
+#: src/editor/main.c:116
+#, c-format
+msgid ""
+"Exit without save?\n"
+"Check: "
+msgstr ""
+"Uscire senza salvare?\n"
+"Controllare: "
+
+#: src/editor/main.c:236 src/editor/view.c:180 src/nextitem/main.c:103
+msgid "_File"
+msgstr "_File"
+
+#: src/editor/main.c:294
+msgid "_Edit"
+msgstr "_Modifica"
+
+#: src/editor/main.c:349
+msgid "_View"
+msgstr "_Visualizza"
+
+#: src/editor/main.c:356
+msgid "_Change Color"
+msgstr "_Cambia colore"
+
+#: src/editor/main.c:367
+msgid "Manual _Edit"
+msgstr "_Modifica Manuale"
+
+#: src/editor/main.c:378
+msgid "Use _Your Editor"
+msgstr "Usa l'editor preferito"
+
+#: src/editor/main.c:393
+msgid "Set your editor..."
+msgstr "Setta l'editor preferito..."
+
+#: src/editor/main.c:409 src/nextitem/main.c:155 src/x/interface.c:610
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: src/editor/main.c:417 src/nextitem/main.c:163 src/x/interface.c:618
+msgid "About..."
+msgstr "About..."
+
+#: src/editor/main.c:433 src/editor/daemon.c:38
+#, fuzzy
+msgid "Connect"
+msgstr "Errore di connessione!"
+
+#: src/editor/main.c:507 src/x/maker.c:195 src/x/maker.c:768
+#, fuzzy
+msgid "undo"
+msgstr "Dimanche"
+
+#: src/editor/main.c:545 src/x/maker.c:234 src/x/maker.c:807
+msgid "redo"
+msgstr ""
+
+#: src/editor/main.c:622
+msgid "Welcome to somax editor!"
+msgstr "Benvenuto su SomaX Editor!"
+
+#: src/editor/main.c:649
+msgid "This file is a spot file. No plugin can run!"
+msgstr ""
+"Questo file e' un file di spot. I plugin non possono girare sui file di spot!"
+
+#: src/editor/main.c:654
+#, c-format
+msgid "Running plugin '%s'..."
+msgstr "Avvio plugin '%s'..."
+
+#: src/editor/main.c:694
+#, c-format
+msgid ""
+"\t%s [options] <file1> <file2> ...\n"
+"\n"
+msgstr ""
+"\t%s [opzioni] <file1> <file2> ...\n"
+"\n"
+
+#: src/editor/main.c:695
+#, c-format
+msgid "\t-h  or --help               this help\n"
+msgstr "\t-h  or --help               questo menu\n"
+
+#: src/editor/main.c:696
+#, c-format
+msgid "\t-pl or --palinsesto         new palinsesto file\n"
+msgstr "\t-pl or --palinsesto         nuovo file di palinsesto\n"
+
+#: src/editor/main.c:697
+#, c-format
+msgid "\t-sp or --spot               new spot file\n"
+msgstr "\t-sp or --spot               nuovo file di spot\n"
+
+#: src/editor/maker.c:107
+msgid "Editing..."
+msgstr "Modifica..."
+
+#: src/editor/maker.c:164
+msgid "New palinsesto layer"
+msgstr "Nuovo livello di Palinsesto"
+
+#: src/editor/maker.c:204
+msgid "New spot layer"
+msgstr "Nuovo livello di file Spot"
+
+#: src/editor/view.c:71
+msgid "Running manual editor..."
+msgstr "Avvio l'editor manuale..."
+
+#: src/editor/view.c:146
+msgid "Internal error."
+msgstr "Errore interno."
+
+#: src/editor/view.c:150
+#, c-format
+msgid "%s -editor %s - manual edit"
+msgstr "%s-editor %s - editor manuale"
+
+#: src/editor/view.c:220
+msgid "Close and update"
+msgstr "Chiudi e aggiorna"
+
+#: src/editor/view.c:231
+msgid "Close without update"
+msgstr "Chiudi senza aggiornare"
+
+#: src/editor/view.c:251
+msgid "Undo the last action"
+msgstr "Annulla l'ultima operazione"
+
+#: src/editor/view.c:261
+msgid "Redo the undone action"
+msgstr "Ripristina l'ultima operazione"
+
+#: src/editor/view.c:272
+msgid "Search for text"
+msgstr "Cerca nel testo"
+
+#: src/editor/view.c:282
+msgid "Cut the selection"
+msgstr "Taglia la selezione"
+
+#: src/editor/view.c:289
+msgid "Copy the selection"
+msgstr "Copia la selezione"
+
+#: src/editor/view.c:296
+msgid "Past the clipboard"
+msgstr "Incolla la selezione"
+
+#: src/editor/view.c:350
+msgid "Close without update somax-editor"
+msgstr "Chiudi senza aggiornare somax-editor"
+
+#: src/editor/view.c:355
+msgid "Save and update somax-editor"
+msgstr "Salva e aggiorna somax-editor"
+
+#: src/editor/view.c:409 src/editor/view.c:541
+msgid "Find For Text..."
+msgstr "Trova nel testo..."
+
+#: src/editor/view.c:420
+msgid "Search For:"
+msgstr "Cerca:"
+
+#: src/editor/view.c:426
+msgid "Match case"
+msgstr "Maiuscole/Minuscole"
+
+#: src/editor/view.c:429
+msgid "Search form the _head"
+msgstr "Cerca dall'inizio del testo"
+
+#: src/editor/view.c:432
+msgid "Search _backwards"
+msgstr "Cerca indietro"
+
+#: src/editor/view.c:547
+msgid ""
+"No result founded.\n"
+"Restart the palinsesto file?"
+msgstr ""
+"Nessun risultato trovato.\n"
+"Ricominciare la ricerca?"
+
+#: src/editor/view.c:609
+msgid "Sure to update somax-editor?"
+msgstr "Sicuro di voler aggiornare somax-editor?"
+
+#: src/editor/view.c:671
+msgid "Sure to quit with save?"
+msgstr "Sicuro di uscire senza salvare?"
+
+#: src/editor/view.c:710
+msgid "Open..."
+msgstr "Apertura..."
+
+#: src/editor/view.c:716
+msgid "Error opening file."
+msgstr "Errore di apertura file."
+
+#: src/editor/view.c:748
+msgid "Open a palinsesto file..."
+msgstr "Apertura del file di palinsesto..."
+
+#: src/editor/view.c:775
+#, c-format
+msgid "I can't write on %s file."
+msgstr "Errore nella scrittura del file %s."
+
+#: src/editor/view.c:815
+#, c-format
+msgid "%s-editor %s - preferences"
+msgstr "%s-editor %s - preferenze"
+
+#: src/editor/view.c:830
+msgid "Editor: "
+msgstr "Editor:"
+
+#: src/editor/view.c:891
+#, c-format
+msgid "Error mkdir %s"
+msgstr "Errore nella creazione della directory %s"
+
+#: src/editor/view.c:904
+#, c-format
+msgid "Error open %s"
+msgstr "Errore nell'apertura di %s"
+
+#: src/editor/view.c:983
+msgid "Set your editor before!"
+msgstr "Settare il proprio editor!"
+
+#: src/editor/daemon.c:49
+#, fuzzy
+msgid "Disconnect"
+msgstr "Errore di connessione!"
+
+#: src/filechooser/filechooser.c:123 src/filechooser/r_filechooser.c:429
+msgid "Don't close this window after usage"
+msgstr "Non chiudere questa finestra dopo l'uso"
+
+#: src/filechooser/r_filechooser.c:197 src/filechooser/r_filechooser.c:385
+msgid "Files"
+msgstr "File"
+
+#: src/filechooser/r_filechooser.c:201 src/filechooser/r_filechooser.c:389
+msgid "Directories"
+msgstr "Cartelle"
+
+#: src/maker/maker_pl.c:105
+msgid "Timeline manualy resized"
+msgstr ""
+
+#: src/maker/maker_pl.c:215
+msgid "Transmission"
+msgstr "Trasmissione"
+
+#: src/maker/maker_pl.c:241
+msgid "_Today"
+msgstr "_Oggi"
+
+#: src/maker/maker_pl.c:251
+#, fuzzy
+msgid "<b>Edit your transmission</b>"
+msgstr "Edita la trasmissione"
+
+#: src/maker/maker_pl.c:267
+msgid "General"
+msgstr "Generale"
+
+#: src/maker/maker_pl.c:288 src/x/list.c:214 src/x/list.c:421
+msgid "Description:"
+msgstr "Descrizione:"
+
+#: src/maker/maker_pl.c:298 src/maker/maker_spot.c:177
+#, fuzzy, c-format
+msgid "Description changed to: %s"
+msgstr "Descrizione:"
+
+#: src/maker/maker_pl.c:302 src/maker/maker_spot.c:181 src/x/list.c:225
+#: src/x/list.c:433
+msgid "Start:"
+msgstr "Inizio:"
+
+#: src/maker/maker_pl.c:309 src/maker/maker_pl.c:457
+#: src/maker/maker_spot.c:188 src/maker/maker_spot.c:333
+msgid " Y "
+msgstr " A "
+
+#: src/maker/maker_pl.c:318 src/maker/maker_pl.c:345 src/maker/maker_pl.c:370
+#: src/maker/maker_pl.c:396 src/maker/maker_pl.c:466 src/maker/maker_pl.c:493
+#: src/maker/maker_pl.c:518 src/maker/maker_pl.c:543
+#: src/maker/maker_spot.c:197 src/maker/maker_spot.c:224
+#: src/maker/maker_spot.c:249 src/maker/maker_spot.c:274
+#: src/maker/maker_spot.c:342 src/maker/maker_spot.c:369
+#: src/maker/maker_spot.c:394 src/maker/maker_spot.c:419
+msgid "any"
+msgstr "tutti"
+
+#: src/maker/maker_pl.c:327 src/maker/maker_spot.c:204
+#, fuzzy, c-format
+msgid "Start Year changed to: %s"
+msgstr "Controllore degli spot:"
+
+#: src/maker/maker_pl.c:336 src/maker/maker_pl.c:484
+#: src/maker/maker_spot.c:215 src/maker/maker_spot.c:360
+msgid " M "
+msgstr " M "
+
+#: src/maker/maker_pl.c:351 src/maker/maker_spot.c:230
+#, fuzzy, c-format
+msgid "Start Month changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:361 src/maker/maker_pl.c:509
+#: src/maker/maker_spot.c:240 src/maker/maker_spot.c:385
+msgid " D "
+msgstr " G "
+
+#: src/maker/maker_pl.c:376 src/maker/maker_spot.c:255
+#, fuzzy, c-format
+msgid "Start Day changed to: %s"
+msgstr "Descrizione:"
+
+#: src/maker/maker_pl.c:387 src/maker/maker_pl.c:534
+#: src/maker/maker_spot.c:265 src/maker/maker_spot.c:410
+msgid " day "
+msgstr " giorno "
+
+#: src/maker/maker_pl.c:402 src/maker/maker_spot.c:280
+#, fuzzy, c-format
+msgid "Start Weekly Day changed to: %s"
+msgstr "Controllore degli spot:"
+
+#: src/maker/maker_pl.c:410 src/maker/maker_pl.c:556
+#: src/maker/maker_spot.c:287 src/maker/maker_spot.c:432
+msgid " h "
+msgstr " h "
+
+#: src/maker/maker_pl.c:426 src/maker/maker_spot.c:301
+#, c-format
+msgid "Start Hour changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:428 src/maker/maker_pl.c:574
+#: src/maker/maker_spot.c:305 src/maker/maker_spot.c:450
+msgid " m "
+msgstr " m "
+
+#: src/maker/maker_pl.c:445 src/maker/maker_spot.c:320
+#, c-format
+msgid "Start Minute changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:449 src/maker/maker_spot.c:326 src/x/list.c:230
+#: src/x/list.c:438
+msgid "Stop:"
+msgstr "Fine:"
+
+#: src/maker/maker_pl.c:475 src/maker/maker_spot.c:349
+#, fuzzy, c-format
+msgid "Stop Year changed to: %s"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:501 src/maker/maker_spot.c:375
+#, fuzzy, c-format
+msgid "Stop Month changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:526 src/maker/maker_spot.c:400
+#, fuzzy, c-format
+msgid "Stop Day changed to: %s"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:551 src/maker/maker_spot.c:425
+#, fuzzy, c-format
+msgid "Stop Weekly Day changed to: %s"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:572 src/maker/maker_spot.c:446
+#, c-format
+msgid "Stop Hour changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:592 src/maker/maker_spot.c:465
+#, c-format
+msgid "Stop Minute changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:596 src/maker/maker_spot.c:471 src/x/list.c:235
+#: src/x/list.c:443
+msgid "TimeContinued:"
+msgstr "Tempo Continuato:"
+
+#: src/maker/maker_pl.c:599 src/maker/maker_spot.c:474
+msgid "active timecontinued attribute"
+msgstr "attiva il tempo continuato"
+
+#: src/maker/maker_pl.c:607 src/maker/maker_spot.c:482
+#, fuzzy, c-format
+msgid "TimeContinued changed to: %s"
+msgstr "Tempo Continuato:"
+
+#: src/maker/maker_pl.c:611
+msgid "Priority"
+msgstr "Priorita'"
+
+#: src/maker/maker_pl.c:613
+msgid "active priority attribute"
+msgstr "attiva l'attributito di priorita'"
+
+#: src/maker/maker_pl.c:621
+#, c-format
+msgid "Priority changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:625 src/x/list.c:242 src/x/list.c:450
+msgid "SpotController:"
+msgstr "Controllore degli spot:"
+
+#: src/maker/maker_pl.c:628
+msgid "active spotcontroller system"
+msgstr "attiva il controllore degli spot"
+
+#: src/maker/maker_pl.c:636
+#, fuzzy, c-format
+msgid "SpotController changed to: %s"
+msgstr "Controllore degli spot:"
+
+#: src/maker/maker_pl.c:640 src/x/list.c:349 src/x/list.c:557
+msgid "SoftStop:"
+msgstr "SoftStop:"
+
+#: src/maker/maker_pl.c:642
+msgid "active softstop attribute"
+msgstr "attiva il softstop"
+
+#: src/maker/maker_pl.c:650
+#, c-format
+msgid "SoftStop changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:653
+msgid "Type"
+msgstr "Tipologia"
+
+#: src/maker/maker_pl.c:676 src/x/list.c:264 src/x/list.c:472
+msgid "Type:"
+msgstr "Tipologia:"
+
+#: src/maker/maker_pl.c:681
+msgid "files"
+msgstr "file"
+
+#: src/maker/maker_pl.c:682
+msgid "stream"
+msgstr "stream"
+
+#: src/maker/maker_pl.c:683
+msgid "silence"
+msgstr "silenzio"
+
+#: src/maker/maker_pl.c:684
+msgid "module generic"
+msgstr "modulo generico"
+
+#: src/maker/maker_pl.c:721
+#, fuzzy, c-format
+msgid "Type changed to: %s"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:741
+msgid "Silence: no options"
+msgstr "Silenzio: nessuna opzione"
+
+#: src/maker/maker_pl.c:764 src/x/list.c:296 src/x/list.c:504
+msgid "Module:"
+msgstr "Modulo:"
+
+#: src/maker/maker_pl.c:773
+#, fuzzy, c-format
+msgid "Module changed to: %s"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:780 src/x/list.c:301
+msgid "Module Data:"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:801
+#, fuzzy
+msgid "Module data changed"
+msgstr "Argomenti Modulo:"
+
+#: src/maker/maker_pl.c:832 src/nextitem/nextitem.c:523 src/x/list.c:288
+#: src/x/list.c:496
+msgid "Stream:"
+msgstr "Stream:"
+
+#: src/maker/maker_pl.c:841
+#, c-format
+msgid "Stream changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:897
+#, fuzzy
+msgid "PathItem"
+msgstr "Lista"
+
+#: src/maker/maker_pl.c:915 src/maker/maker_pl.c:1290
+#: src/maker/maker_spot.c:551
+msgid "Remote Add Files"
+msgstr "Aggiungi un file remoto"
+
+#: src/maker/maker_pl.c:930 src/maker/maker_pl.c:1305
+#: src/maker/maker_spot.c:567
+msgid "Remote Add Directories"
+msgstr "Aggiungi una cartella remota"
+
+#: src/maker/maker_pl.c:945 src/maker/maker_pl.c:1320
+#: src/maker/maker_spot.c:582
+msgid "Local Add Files"
+msgstr "Aggiungi un file locale"
+
+#: src/maker/maker_pl.c:959 src/maker/maker_spot.c:596
+msgid "Local Add Directories"
+msgstr "Aggiungi una cartella locale"
+
+#: src/maker/maker_pl.c:974 src/maker/maker_pl.c:1348
+#: src/maker/maker_spot.c:611
+#, fuzzy
+msgid "Remove selected items"
+msgstr "Rimuovi elemento"
+
+#: src/maker/maker_pl.c:990 src/maker/maker_pl.c:1364
+#: src/maker/maker_spot.c:627
+msgid "Check Duration"
+msgstr "Calcola Durata"
+
+#: src/maker/maker_pl.c:996 src/maker/maker_pl.c:1370
+#: src/maker/maker_pl.c:1623 src/maker/maker_pl.c:1625
+#: src/maker/maker_spot.c:633 src/maker/maker_spot.c:810
+msgid "Duration: n/a"
+msgstr "Durata: n/a"
+
+#: src/maker/maker_pl.c:1003
+msgid "Items"
+msgstr "Elementi"
+
+#: src/maker/maker_pl.c:1026 src/x/list.c:249 src/x/list.c:457
+msgid "Jingle:"
+msgstr "Jingle:"
+
+#: src/maker/maker_pl.c:1039
+#, c-format
+msgid "Jingle changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:1048 src/maker/maker_pl.c:1097
+#: src/maker/maker_pl.c:1146
+#, fuzzy
+msgid "Remote Add File"
+msgstr "Aggiungi un file remoto"
+
+#: src/maker/maker_pl.c:1063 src/maker/maker_pl.c:1112
+#: src/maker/maker_pl.c:1161
+#, fuzzy
+msgid "Local Add File"
+msgstr "Aggiungi un file locale"
+
+#: src/maker/maker_pl.c:1074 src/x/list.c:254 src/x/list.c:462
+#, fuzzy
+msgid "PreSpot:"
+msgstr "Elenco Spot"
+
+#: src/maker/maker_pl.c:1088
+#, c-format
+msgid "PreSpot changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:1123 src/x/list.c:259 src/x/list.c:467
+#, fuzzy
+msgid "PostSpot:"
+msgstr "Elenco Spot"
+
+#: src/maker/maker_pl.c:1137
+#, c-format
+msgid "PostSpot changed to: %s"
+msgstr ""
+
+#: src/maker/maker_pl.c:1172
+#, fuzzy
+msgid "RatioItem:"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1182
+#, fuzzy, c-format
+msgid "RatioItem changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1189
+msgid "RatioSpot:"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1199
+#, fuzzy, c-format
+msgid "RatioSpot changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1206 src/x/list.c:335 src/x/list.c:543
+#, fuzzy
+msgid "Random Item:"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1210
+#, fuzzy
+msgid "Active random selection for the items"
+msgstr "attiva la selezione casuale"
+
+#: src/maker/maker_pl.c:1218
+#, fuzzy, c-format
+msgid "Random Item changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1223 src/x/list.c:342 src/x/list.c:550
+#, fuzzy
+msgid "Random Spot:"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1227
+#, fuzzy
+msgid "Active random selection for the spot"
+msgstr "attiva la selezione casuale"
+
+#: src/maker/maker_pl.c:1235
+#, fuzzy, c-format
+msgid "Random Spot changed to: %s"
+msgstr "Rapporto Spot:"
+
+#: src/maker/maker_pl.c:1272
+msgid "PathSpot"
+msgstr "Elenco Spot"
+
+#: src/maker/maker_pl.c:1334
+#, fuzzy
+msgid "Local Add Directory"
+msgstr "Aggiungi una cartella locale"
+
+#: src/maker/maker_pl.c:1400
+msgid "New Transmission"
+msgstr "Nuova trasmissione"
+
+#: src/maker/maker_pl.c:1423
+msgid "_Remove Transmission"
+msgstr "_Rimuovi trasmissione"
+
+#: src/maker/maker_pl.c:2134 src/maker/maker_spot.c:1098
+#: src/palinsesto/palinsesto.c:222 src/palinsesto/spot.c:181
+msgid "No description"
+msgstr "Nessuna descrizione"
+
+#: src/maker/maker_pl.c:2157
+#, fuzzy
+msgid "New trasmission created"
+msgstr "Nessuna trasmissione selezionata!"
+
+#: src/maker/maker_pl.c:2244 src/maker/maker_spot.c:1198 src/x/list.c:147
+#: src/x/tooltips.c:227
+#, c-format
+msgid "Description: <b>%s</b>"
+msgstr "Descrizione: <b>%s</b>"
+
+#: src/maker/maker_pl.c:2254 src/maker/maker_spot.c:1209 src/x/list.c:157
+#: src/x/tooltips.c:237
+#, c-format
+msgid "Start: <b>%s</b>"
+msgstr "Inizio: <b>%s</b>"
+
+#: src/maker/maker_pl.c:2264 src/maker/maker_spot.c:1219 src/x/list.c:166
+#: src/x/tooltips.c:247
+#, c-format
+msgid "Stop: <b>%s</b>"
+msgstr "Fine: <b>%s</b>"
+
+#: src/maker/maker_pl.c:2525
+#, fuzzy
+msgid "Search a local file"
+msgstr "Cerca il file"
+
+#: src/maker/maker_pl.c:2538 src/maker/maker_spot.c:1255 src/maker/maker.c:82
+#: src/maker/maker.c:89
+msgid "Add files"
+msgstr "Aggiungi file"
+
+#: src/maker/maker_pl.c:2586 src/maker/maker_spot.c:1300 src/maker/maker.c:141
+#: src/maker/maker.c:147
+msgid "Add directories"
+msgstr "Aggiungi cartelle"
+
+#: src/maker/maker_pl.c:2676 src/maker/maker_spot.c:1387
+msgid "Open new file without save?"
+msgstr "Aprire un nuovo file senza salvare?"
+
+#: src/maker/maker_pl.c:2682 src/maker/maker_spot.c:1393
+msgid "Open a palinsesto file"
+msgstr "Apertura di un file di palinsesto"
+
+#: src/maker/maker_pl.c:2719
+msgid "Select the color..."
+msgstr "Seleziona il colore..."
+
+#: src/maker/maker_pl.c:2749
+msgid "Color changed"
+msgstr ""
+
+#: src/maker/maker_pl.c:2813 src/maker/maker_pl.c:2832
+#: src/maker/maker_pl.c:2858 src/maker/maker_pl.c:2919
+#: src/maker/maker_pl.c:2946 src/maker/maker_pl.c:2979
+#: src/maker/maker_spot.c:1464 src/maker/maker_spot.c:1483
+#: src/maker/maker_spot.c:1509 src/maker/maker_spot.c:1572
+#: src/maker/maker_spot.c:1599 src/maker/maker_spot.c:1632
+#, c-format
+msgid "Check %s"
+msgstr "Controllo %s"
+
+#: src/maker/maker_pl.c:3054
+#, fuzzy
+msgid "Transmission removed"
+msgstr "Trasmissione copiata"
+
+#: src/maker/maker_spot.c:128
+msgid "Spot element"
+msgstr "Elemento di Spot"
+
+#: src/maker/maker_spot.c:143
+msgid "Edit your spot element"
+msgstr "Modifica l'elemento di Spot"
+
+#: src/maker/maker_spot.c:167 src/plugins/plugins.c:241
+msgid "Description"
+msgstr "Descrizione"
+
+#: src/maker/maker_spot.c:486
+msgid "Repeat:"
+msgstr "Ripetizione:"
+
+#: src/maker/maker_spot.c:496
+#, c-format
+msgid "Repeat changed to: %s"
+msgstr ""
+
+#: src/maker/maker_spot.c:533
+msgid "Path"
+msgstr "Lista"
+
+#: src/maker/maker_spot.c:662
+msgid "New Spot"
+msgstr "Nuovo Spot"
+
+#: src/maker/maker_spot.c:685
+msgid "_Remove Spot"
+msgstr "_Cancella Spot"
+
+#: src/maker/maker_spot.c:1085
+#, fuzzy
+msgid "Spot removed"
+msgstr "Elemento di Spot"
+
+#: src/maker/maker_spot.c:1115
+#, fuzzy
+msgid "New spot created"
+msgstr "Creato Nuovo editor"
+
+#: src/maker/maker.c:57 src/maker/maker.c:64
+#, fuzzy
+msgid "Search a remote file"
+msgstr "Cerca il file"
+
+#: src/maker/maker.c:375
+#, fuzzy
+msgid "No description for this change"
+msgstr "Nessuna descrizione"
+
+#: src/maker/maker.c:420
+#, fuzzy
+msgid "true"
+msgstr "stream"
+
+#: src/maker/maker.c:420
+#, fuzzy
+msgid "false"
+msgstr "file"
+
+#: src/nextitem/main.c:110
+msgid "Exec Soma_X"
+msgstr "Esegui Soma_X"
+
+#: src/nextitem/main.c:121
+msgid "Exec Somax-_Editor"
+msgstr "Esegui Somax-_Editor"
+
+#: src/nextitem/main.c:132
+msgid "Exec Somax-_Config"
+msgstr "Esegui Somax-_Config"
+
+#: src/nextitem/main.c:178
+msgid "Set timer refresh between somad and this somax"
+msgstr "Setta il tempo di refresh tra somad e questo somax"
+
+#: src/nextitem/main.c:213
+#, fuzzy
+msgid "Skip current item"
+msgstr "Salta la canzone corrente"
+
+#: src/nextitem/main.c:235
+#, fuzzy
+msgid "Close somax-nextitem"
+msgstr "Chiudi somax-nextsong"
+
+#: src/nextitem/nextitem.c:262
+#, fuzzy
+msgid "NextItem List"
+msgstr "Elemento Corrente"
+
+#: src/nextitem/nextitem.c:284
+msgid "Search"
+msgstr "Cerca"
+
+#: src/nextitem/nextitem.c:292
+msgid "With Spot Interaction"
+msgstr "Con l'interazione degli Spot"
+
+#: src/nextitem/nextitem.c:318
+msgid "Remove Item"
+msgstr "Rimuovi elemento"
+
+#: src/nextitem/nextitem.c:337
+msgid "Add Stream"
+msgstr "Aggiungi uno Stream"
+
+#: src/nextitem/nextitem.c:361
+msgid "Add Remote File"
+msgstr "Aggiungi un file remoto"
+
+#: src/nextitem/nextitem.c:363
+msgid "Add File"
+msgstr "Aggiungi un file"
+
+#: src/nextitem/nextitem.c:384
+msgid "Add Remote Directory"
+msgstr "Aggiungi una cartella remota"
+
+#: src/nextitem/nextitem.c:386
+msgid "Add Directory"
+msgstr "Aggiungi una cartella"
+
+#: src/nextitem/nextitem.c:412
+msgid "Add Local File"
+msgstr "Aggiungi un file locale"
+
+#: src/nextitem/nextitem.c:431
+msgid "Add Local Directory"
+msgstr "Aggiungi una cartella locale"
+
+#: src/nextitem/nextitem.c:456
+msgid "Move Up"
+msgstr ""
+
+#: src/nextitem/nextitem.c:475
+msgid "Move Down"
+msgstr ""
+
+#: src/nextitem/nextitem.c:1025 src/nextitem/nextitem.c:1062
+#, fuzzy
+msgid "No selected items!"
+msgstr "Rimuovi elemento"
+
+#: src/plugins/plugins.c:193
+#, c-format
+msgid "%s %s - plugins about"
+msgstr "%s %s - Informazioni moduli"
+
+#: src/plugins/plugins.c:221
+msgid "Plugin"
+msgstr "Modulo"
+
+#: src/plugins/plugins.c:226
+msgid "Author"
+msgstr "Autore"
+
+#: src/plugins/plugins.c:231
+msgid "Version"
+msgstr "Versione"
+
+#: src/plugins/plugins.c:236
+msgid "Licence"
+msgstr "Licenza"
+
+#: src/plugins/plugins.c:282
+msgid "_Plugins"
+msgstr "_Moduli"
+
+#: src/plugins/plugins.c:303
+msgid "Plugins _About"
+msgstr "Moduli _Informazioni"
+
+#: src/timer/timer.c:503
+#, fuzzy
+msgid "Timer Preferences"
+msgstr "%s-editor %s - preferenze"
+
+#: src/timer/timer.c:546
+#, fuzzy
+msgid "Fonts"
+msgstr "2 mesi"
+
+#: src/timer/timer.c:557
+#, fuzzy
+msgid "First Timer"
+msgstr "Tempo di Inizio:"
+
+#: src/timer/timer.c:563 src/timer/timer.c:594 src/timer/timer.c:625
+msgid "Color:"
+msgstr ""
+
+#: src/timer/timer.c:579 src/timer/timer.c:610 src/timer/timer.c:641
+msgid "Seconds:"
+msgstr ""
+
+#: src/timer/timer.c:588
+#, fuzzy
+msgid "Second Timer"
+msgstr "Ora somad: %s"
+
+#: src/timer/timer.c:619
+msgid "Third Timer"
+msgstr ""
+
+#: src/timer/timer.c:650 src/timer/timer.c:653
+msgid "Show Decimals Value"
+msgstr ""
+
+#: src/timer/timer.c:695
+msgid "The first timer can't be minor then second one."
+msgstr ""
+
+#: src/timer/timer.c:702
+msgid "The second timer can't be minor then third one."
+msgstr ""
+
+#: src/x/buttons.c:163
+msgid "Sure to quit somad?"
+msgstr "Sicuro di chiudere somad?"
+
+#: src/x/buttons.c:216
+msgid "Sure to set the current palinsesto as default?"
+msgstr "Sicuro di settare il palinsesto corrente come quello di default?"
+
+#: src/x/buttons.c:220
+msgid "Save old palinsesto in a local file?"
+msgstr "Salvare il file di palinsesto precedente in un file locale?"
+
+#: src/x/buttons.c:232 src/x/buttons.c:427 src/x/buttons.c:496
+#: src/x/buttons.c:531 src/x/buttons.c:566 src/x/buttons.c:601
+msgid "Action aborted!"
+msgstr "Azione annullata!"
+
+#: src/x/buttons.c:240 src/x/buttons.c:435 src/x/buttons.c:504
+#: src/x/buttons.c:539 src/x/buttons.c:574 src/x/buttons.c:609
+msgid "Error opening your file. Abort!"
+msgstr "Errore di apertura del file. Abortito!"
+
+#: src/x/buttons.c:258
+msgid "Error setting current palinsesto file as default"
+msgstr ""
+"Errore nel settare il file di palinsesto corrente come quello di default"
+
+#: src/x/buttons.c:261
+msgid "Set current palinsesto file as default: done"
+msgstr ""
+"Operazione di settaggio del palinsesto corrente come quello di default: "
+"riuscita"
+
+#: src/x/buttons.c:411
+msgid "Sure to set the current spot file as default?"
+msgstr "Sicuro di settare il corrente file di spot come quello di default?"
+
+#: src/x/buttons.c:415
+msgid "Save old spot file in a local file?"
+msgstr "Salvare il file di spot precedente in un file locale?"
+
+#: src/x/buttons.c:451
+msgid "Error setting current spot file as default"
+msgstr "Errore nel settaggio del file di spot corrente come quello di default"
+
+#: src/x/buttons.c:454
+msgid "Set current spot file as default: done"
+msgstr "Settaggio del file di spot corrente come quello di default: riuscito"
+
+#: src/x/buttons.c:493
+msgid "Save current palinsesto"
+msgstr "Salva il palinsesto corrente"
+
+#: src/x/buttons.c:528
+msgid "Save current spot file"
+msgstr "Salva il file di spot corrente"
+
+#: src/x/buttons.c:563
+msgid "Save old palinsesto"
+msgstr "Salva il file di palinsesto precedente"
+
+#: src/x/buttons.c:598
+msgid "Save old spot file"
+msgstr "Salva il file di spot precedente"
+
+#: src/x/buttons.c:682
+msgid "No item"
+msgstr "Nessun Elemento"
+
+#: src/x/buttons.c:773 src/x/buttons.c:791
+msgid "No transmission"
+msgstr "Nessuna trasmissione"
+
+#: src/x/buttons.c:802
+msgid "No information about this transmission!"
+msgstr "Nessuna informazione per questa trasmissione!"
+
+#: src/x/change.c:42
+#, fuzzy, c-format
+msgid "Are you sure to change the palinsesto of somad?"
+msgstr "Sicuro di voler cambiare il file di palinsesto a somad?"
+
+#: src/x/change.c:51 src/x/change.c:85
+#, c-format
+msgid "Error: opening %s file"
+msgstr "Errore nell'apertura del file %s"
+
+#: src/x/change.c:58
+msgid "Error changing the palinsesto file."
+msgstr "Errore nel cambiamento del file di spot"
+
+#: src/x/change.c:76
+#, fuzzy, c-format
+msgid "Are you sure to change the spot file of somad?"
+msgstr "Sicuro di voler cambiare il file di Spot a somad?"
+
+#: src/x/change.c:92
+msgid "Error changing the spot file."
+msgstr "Errore nel cambiamento del file di spot."
+
+#: src/x/daemon.c:64
+msgid "SomaD starting..."
+msgstr "Avvio di SomaD"
+
+#: src/x/daemon.c:235
+msgid "_Increase font size"
+msgstr "Incremente la dimensione del font"
+
+#: src/x/daemon.c:251
+msgid "_Decrease font size"
+msgstr "Decrementa la dimensione del font"
+
+#: src/x/daemon.c:272
+msgid "_Change font"
+msgstr "_Cambia font"
+
+#: src/x/daemon.c:289
+msgid "_Audible bell"
+msgstr "Campanello Sonoro"
+
+#: src/x/daemon.c:302
+msgid "_Visible bell"
+msgstr "Campanello Visivo"
+
+#: src/x/daemon.c:315
+msgid "_Transparent background"
+msgstr "Background _trasparente"
+
+#: src/x/daemon.c:419
+msgid "Select a font"
+msgstr "Seleziona un font"
+
+#: src/x/interface.c:180
+msgid "_SomaX"
+msgstr "_SomaX"
+
+#: src/x/interface.c:188 src/x/interface.c:1383
+msgid "Refresh _Directories"
+msgstr "Rileggi le _Cartelle"
+
+#: src/x/interface.c:203 src/x/interface.c:1108
+msgid "_Change Palinsesto"
+msgstr "Cambia il _palinsesto"
+
+#: src/x/interface.c:213
+msgid "Reload Palinsesto"
+msgstr "_Rileggi palinsesto"
+
+#: src/x/interface.c:223 src/x/interface.c:1160
+msgid "_Old Palinsesto"
+msgstr "_Vecchio Palinsesto"
+
+#: src/x/interface.c:238
+msgid "C_hange Spot file"
+msgstr "C_ambia il file di Spot"
+
+#: src/x/interface.c:248
+msgid "Reload Spot File"
+msgstr "Rileggi il File di Spot"
+
+#: src/x/interface.c:258
+msgid "Old Spot File"
+msgstr "Vecchio file di Spot"
+
+#: src/x/interface.c:273
+msgid "_Start/Stop"
+msgstr "_Start/Stop"
+
+#: src/x/interface.c:280
+#, fuzzy
+msgid "S_kip item"
+msgstr "S_alta canzone"
+
+#: src/x/interface.c:295
+msgid "_Pause/UnPause"
+msgstr ""
+
+#: src/x/interface.c:302
+msgid "_Pause and Skip"
+msgstr ""
+
+#: src/x/interface.c:317
+msgid "Somad _Terminal"
+msgstr "_Terminale di Somad"
+
+#: src/x/interface.c:343
+msgid "S_hutdown somad"
+msgstr "_Chiudi somad"
+
+#: src/x/interface.c:358
+msgid "Quit"
+msgstr "Esci"
+
+#: src/x/interface.c:365
+#, fuzzy
+msgid "_NextItem"
+msgstr "Elemento Corrente"
+
+#: src/x/interface.c:372
+msgid "_Show List"
+msgstr "_Mostra Lista"
+
+#: src/x/interface.c:384
+#, fuzzy
+msgid "_Add Remote Item"
+msgstr "Aggiungi un file remoto"
+
+#: src/x/interface.c:395
+msgid "_Add Remote Directory"
+msgstr "_Aggiungi una cartella remota"
+
+#: src/x/interface.c:408
+#, fuzzy
+msgid "_Add Local Item"
+msgstr "Aggiungi un file locale"
+
+#: src/x/interface.c:419
+msgid "_Add Local Directory"
+msgstr "Aggiungi una cartella locale"
+
+#: src/x/interface.c:430
+msgid "Add _Stream"
+msgstr "Aggiungi _Stream"
+
+#: src/x/interface.c:442
+#, fuzzy
+msgid "_Separated NextItem"
+msgstr "Lancia NextSong separato"
+
+#: src/x/interface.c:449
+msgid "_Palinsesti"
+msgstr "_Palinsesti"
+
+#: src/x/interface.c:457
+msgid "_Edit this palinsesto"
+msgstr "Edita questo palinsesto"
+
+#: src/x/interface.c:468
+msgid "_Create new palinsesto"
+msgstr "_Crea un nuovo palinsesto"
+
+#: src/x/interface.c:484
+msgid "Save current _palinsesto"
+msgstr "Salva il _palinsesto corrente"
+
+#: src/x/interface.c:495
+msgid "Save old _palinsesto"
+msgstr "Salva il palinsesto precendente"
+
+#: src/x/interface.c:511
+msgid "_Set current palinsesto as default"
+msgstr "_Setta il palinsesto corrente come quello di default"
+
+#: src/x/interface.c:518
+msgid "Sp_ots"
+msgstr "Sp_ot"
+
+#: src/x/interface.c:526
+msgid "_Edit the Spot File"
+msgstr "_Edita questo file di spot"
+
+#: src/x/interface.c:537
+msgid "_Create a new Spot File"
+msgstr "Crea un nuovo file di spot"
+
+#: src/x/interface.c:553
+msgid "Save current _spot file"
+msgstr "Salva il file di spot corrente"
+
+#: src/x/interface.c:564
+msgid "Save old _spot file"
+msgstr "Salva il file di spot precedente"
+
+#: src/x/interface.c:580
+msgid "_Set current spot file as default"
+msgstr "Setta il file di spot corrente come quello di default"
+
+#: src/x/interface.c:587
+msgid "_Tools"
+msgstr "_Strumenti"
+
+#: src/x/interface.c:594
+msgid "_Config tool"
+msgstr "Strumento di configurazione"
+
+#: src/x/interface.c:632
+msgid "Switch between local and remote time"
+msgstr "Passa tra l'ora locale e l'ora remota"
+
+#: src/x/interface.c:638
+msgid "Next Event: 00:00"
+msgstr "Prossimo Evento: 00.00"
+
+#: src/x/interface.c:707
+#, fuzzy
+msgid "Item List"
+msgstr "Elementi"
+
+#: src/x/interface.c:720 src/x/interface.c:800
+msgid "Duration"
+msgstr "Durata"
+
+#: src/x/interface.c:732 src/x/interface.c:812
+msgid "Total:"
+msgstr "Totale:"
+
+#: src/x/interface.c:787
+msgid "Spot List"
+msgstr "Lista Spot"
+
+#: src/x/interface.c:837
+#, fuzzy
+msgid "Current Transmission:"
+msgstr "Trasmissione corrente"
+
+#: src/x/interface.c:861
+#, fuzzy
+msgid "Current Item:"
+msgstr "Elemento Corrente"
+
+#: src/x/interface.c:874 src/x/interface.c:1338
+#, fuzzy
+msgid "Skip the current item"
+msgstr "Salta la canzone corrente"
+
+#: src/x/interface.c:958
+#, fuzzy
+msgid "Next Item:"
+msgstr "Elemento Corrente"
+
+#: src/x/interface.c:971
+#, fuzzy
+msgid "Skip the follow item"
+msgstr "Salta la canzone corrente"
+
+#: src/x/interface.c:1074
+msgid "To_day"
+msgstr "Oggi"
+
+#: src/x/interface.c:1090
+msgid "Click to change palinsesto file"
+msgstr "Clicca per cambiare il file di palinsesto"
+
+#: src/x/interface.c:1116
+msgid "Click to reload the palinsesto file"
+msgstr "Clicca per rileggere il file di palinsesto"
+
+#: src/x/interface.c:1134
+msgid "_Reload Palinsesto"
+msgstr "_Rileggi il file di palinsesto"
+
+#: src/x/interface.c:1142
+msgid "Click to set the old palinsesto file"
+msgstr "Clicca per passare al vecchio file di palinsesto"
+
+#: src/x/interface.c:1172
+msgid "Click to change spot file"
+msgstr "Clicca per cambiare il file di spot"
+
+#: src/x/interface.c:1191
+msgid "_Change Spot File"
+msgstr "_Cambia il file di spot"
+
+#: src/x/interface.c:1199
+msgid "Click to reload the spot file"
+msgstr "Clicca per rileggere il file di spot"
+
+#: src/x/interface.c:1217
+msgid "_Reload Spot File"
+msgstr "_Rileggi il file di spot"
+
+#: src/x/interface.c:1225
+msgid "Click to set the old spot file"
+msgstr "Clicca per passare al vecchio file di spot"
+
+#: src/x/interface.c:1243
+msgid "_Old Spot File"
+msgstr "Vecchio file di spot"
+
+#: src/x/interface.c:1255
+msgid "Click to stop or start somad"
+msgstr "Clicca per stoppare o avviare somad"
+
+#: src/x/interface.c:1266 src/x/interface.c:1432
+msgid "Wait..."
+msgstr "Aspetta..."
+
+#: src/x/interface.c:1274
+msgid "Click to stop somad for some seconds..."
+msgstr "Clicca per stoppare somad per qualche secondo..."
+
+#: src/x/interface.c:1287
+msgid "h"
+msgstr "h"
+
+#: src/x/interface.c:1297
+msgid "m"
+msgstr "m"
+
+#: src/x/interface.c:1307
+msgid "s"
+msgstr "s"
+
+#: src/x/interface.c:1326
+msgid "Stop for:"
+msgstr "Stoppa per:"
+
+#: src/x/interface.c:1355
+#, fuzzy
+msgid "S_kip Item"
+msgstr "S_alta canzone"
+
+#: src/x/interface.c:1364
+msgid "Click to force a new reading for directories and files"
+msgstr "Clicca per forzare la rilettura delle cartelle e dei file"
+
+#: src/x/interface.c:1391
+msgid "Click to shutdown the somad server"
+msgstr "Clicca per chiudere il server Somad"
+
+#: src/x/interface.c:1409
+msgid "_Shutdown somad"
+msgstr "Chiudi somad"
+
+#: src/x/interface.c:1422
+#, fuzzy
+msgid "Click to set somad in pause/unpause mode"
+msgstr "Clicca per stoppare somad per qualche secondo..."
+
+#: src/x/interface.c:1440
+#, fuzzy
+msgid "Pause and skip the current item"
+msgstr "Salta la canzone corrente"
+
+#: src/x/interface.c:1458
+msgid "Pause and Skip"
+msgstr ""
+
+#: src/x/interface.c:1466 src/x/interface.c:1576 src/x/interface.c:1580
+#, fuzzy
+msgid "Server Status"
+msgstr "Server:"
+
+#: src/x/list.c:219 src/x/list.c:426
+msgid "Priority:"
+msgstr "Priorita':"
+
+#: src/x/list.c:269 src/x/list.c:477
+#, c-format
+msgid "<b>Stream</b>"
+msgstr "<b>Stream</b>"
+
+#: src/x/list.c:272 src/x/list.c:480
+#, c-format
+msgid "<b>Module</b>"
+msgstr "<b>Modulo</b>"
+
+#: src/x/list.c:275 src/x/list.c:483
+#, c-format
+msgid "<b>Silence</b>"
+msgstr "<b>Silenzio</b>"
+
+#: src/x/list.c:278 src/x/list.c:486
+#, c-format
+msgid "<b>Files</b>"
+msgstr "<b>File</b>"
+
+#: src/x/list.c:309 src/x/list.c:517
+#, fuzzy
+msgid "N. Item:"
+msgstr "Elemento Corrente"
+
+#: src/x/list.c:316 src/x/list.c:524
+msgid "N. Spot:"
+msgstr "N. Spot:"
+
+#: src/x/list.c:323 src/x/list.c:531
+#, fuzzy
+msgid "Ratio Item:"
+msgstr "Rapporto Spot:"
+
+#: src/x/list.c:329 src/x/list.c:537
+msgid "Ratio Spot:"
+msgstr "Rapporto Spot:"
+
+#: src/x/list.c:395
+#, c-format
+msgid "%s %s - Transmissions"
+msgstr "%s %s - Trasmissioni"
+
+#: src/x/list.c:509
+msgid "ModuleData:"
+msgstr "Argomenti modulo:"
+
+#: src/x/main.c:144
+msgid "Somad running. You want shutdown it?"
+msgstr "Somad sta girando. Fermarlo?"
+
+#: src/x/maker.c:313
+msgid "Change color"
+msgstr "Cambia colore"
+
+#: src/x/maker.c:339 src/x/maker.c:890
+msgid "Save on file"
+msgstr "Salva su un file"
+
+#: src/x/maker.c:362 src/x/maker.c:913
+msgid "Save on a new file"
+msgstr "Salva su un nuovo file"
+
+#: src/x/maker.c:389
+msgid "Update the palinsesto of somad"
+msgstr "Aggiorna il palinsesto di somad"
+
+#: src/x/maker.c:412 src/x/maker.c:963
+msgid "Close this window"
+msgstr "Chiudi questa finestra"
+
+#: src/x/maker.c:499
+msgid "Error changing palinsesto file."
+msgstr "Errore nel cambiare il file di palinsesto"
+
+#: src/x/maker.c:501
+msgid "Palinsesto updated!"
+msgstr "Palinsesto aggiornato!"
+
+#: src/x/maker.c:524 src/x/maker.c:556
+msgid "Palinsesto saved!"
+msgstr "Palinsesto salvato!"
+
+#: src/x/maker.c:940
+msgid "Update the spot file of somad"
+msgstr "Aggiorna il file di spot di somad"
+
+#: src/x/maker.c:1031 src/x/maker.c:1063
+msgid "Spot file saved!"
+msgstr "File di Spot salvato!"
+
+#: src/x/maker.c:1112
+msgid "Error changing spot file."
+msgstr "Errore nel cambiamento del file di spot."
+
+#: src/x/maker.c:1114
+msgid "Spot updated!"
+msgstr "Spot aggiornato!"
+
+#: src/x/nextitem.c:122
+#, fuzzy
+msgid "Close nextitem window"
+msgstr "Chiudi la finestra delle prossime canzoni"
+
+#: src/x/time.c:90 src/x/tooltips.c:73
+#, c-format
+msgid "Somad Time: %s"
+msgstr "Ora somad: %s"
+
+#: src/x/time.c:111 src/x/tooltips.c:103
+#, c-format
+msgid "Local Time: %s"
+msgstr "Ora locale: %s"
+
+#: src/x/timeout.c:339 src/x/timeout.c:401
+#, c-format
+msgid "Next event: 0:00:%.2d"
+msgstr "Prossimo evento: 0:00:%.2d"
+
+#: src/x/timeout.c:345 src/x/timeout.c:398
+#, c-format
+msgid "Next event: %d:%.2d:%.2d"
+msgstr "Prossimo evento: %d:%.2d:%.2d"
+
+#: src/x/timeout.c:464
+msgid "_Stop"
+msgstr "_Stop"
+
+#: src/x/timeout.c:485
+msgid "_Start"
+msgstr "_Start"
+
+#: src/x/timeout.c:538
+msgid "_Pause"
+msgstr ""
+
+#: src/x/timeout.c:559
+msgid "_UnPause"
+msgstr ""
+
+#: src/x/timeout.c:903
+msgid "Reconnecting..."
+msgstr "Ricollegamento in corso..."
+
+#: src/x/timeout.c:921
+msgid "SSL error! Try to reconnecting..."
+msgstr "Errore SSL! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:925
+msgid "Connect error! Try to reconnecting..."
+msgstr "Errore di connessione! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:929
+msgid "Unknown host! Try to reconnecting..."
+msgstr "Host sconosciuto! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:933
+msgid "Protocol error! Try to reconnecting..."
+msgstr "Errore di protocollo! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:937
+msgid "Password error! Try to reconnecting..."
+msgstr "Errore di password! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:941
+msgid "System error! Try to reconnecting..."
+msgstr "Errore di sistema! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:945
+msgid "No correct data! Try to reconnecting..."
+msgstr "Errore di dati! Provo a ricollegarmi..."
+
+#: src/x/timeout.c:957
+msgid "Generic error! Try to reconnecting..."
+msgstr "Errore generico! Provo a ricollegarmi..."
+
+#: src/x/tlist.c:690
+msgid "Show info"
+msgstr "_Mostra informazioni"
+
+#: src/x/tlist.c:701
+#, fuzzy
+msgid "Insert in NextItem list"
+msgstr "Inserisci tra le Prossime Canzoni"
+
+#: src/x/tlist.c:708
+#, fuzzy
+msgid "Remove item"
+msgstr "Rimuovi elemento"
+
+#: src/x/tlist.c:720
+msgid "Expand tree"
+msgstr ""
+
+#: src/x/tlist.c:727
+msgid "Collapse tree"
+msgstr ""
+
+#~ msgid "_Discard changes"
+#~ msgstr "_Annulla i cambiamenti"
+
+#~ msgid "_Apply the changes"
+#~ msgstr "Applica i _Cambiamenti"
+
+#, fuzzy
+#~ msgid "Update the changes?"
+#~ msgstr "Aggiornare i cambiamenti?"
+
+#, fuzzy
+#~ msgid "RandomSpot:"
+#~ msgstr "Selezione Casuale:"
+
+#, fuzzy
+#~ msgid "RandomItem:"
+#~ msgstr "Selezione Casuale:"
+
+#~ msgid ""
+#~ "The file %s has not a XML syntax!\n"
+#~ "It will be automatically saved with a XML syntax"
+#~ msgstr ""
+#~ "Il file %s non ha una sintassi XML\n"
+#~ "Verra automaticamente convertito con una sintassi XML"
+
+#~ msgid "Export with old syntax..."
+#~ msgstr "Esportazione con la vecchia sintassi..."
+
+#~ msgid "Export with old syntax"
+#~ msgstr "Esportazione con la vecchia sintassi"
+
+#~ msgid "Export: aborted"
+#~ msgstr "Esportazione: abortita"
+
+#~ msgid "Export: error"
+#~ msgstr "Esportazione: errore"
+
+#~ msgid "Export: done!"
+#~ msgstr "Esportazione: completata!"
+
+#~ msgid "_Export with old syntax"
+#~ msgstr "_Esportazione con la vecchia sintassi"
+
+#~ msgid "PathSong"
+#~ msgstr "Elenco Canzoni"
+
+#~ msgid "RatioSong:"
+#~ msgstr "Rapporto Canzoni:"
+
+#~ msgid "NextSong List"
+#~ msgstr "Lista Prossime canzoni"
+
+#~ msgid "S_kip song"
+#~ msgstr "_Salta canzone"
+
+#~ msgid "_NextSong"
+#~ msgstr "_Prossime Canzoni"
+
+#~ msgid "_Add Remote Song"
+#~ msgstr "_Aggiungi un elemento remoto"
+
+#~ msgid "_Add Local Song"
+#~ msgstr "Aggiungi una canzone _locale"
+
+#~ msgid "Song List"
+#~ msgstr "Lista Elementi"
+
+#~ msgid "N. Song:"
+#~ msgstr "N. Canzoni:"
+
+#~ msgid "Ratio Song:"
+#~ msgstr "Rapporto Canzoni:"
+
+#, fuzzy
+#~ msgid "Locale Add File"
+#~ msgstr "Aggiungi un file locale"
+
+#, fuzzy
+#~ msgid "Locale Add Files"
+#~ msgstr "Aggiungi un file locale"
+
+#, fuzzy
+#~ msgid "_Timer preferences"
+#~ msgstr "%s-editor %s - preferenze"
+
+#~ msgid "Enable or disable the refresh of playlist info"
+#~ msgstr ""
+#~ "Attivare o disattivare la richiesta di informazioni per i brani in "
+#~ "playlist"
+
+#, fuzzy
+#~ msgid "Exit without save your data?"
+#~ msgstr "Uscire senza salvare?"
+
+#~ msgid "Open a config file"
+#~ msgstr "Apri il file di configurazione"
+
+#~ msgid "Error: opening file: %s"
+#~ msgstr "Errore nell'apertura del file: %s"
+
+#~ msgid "The passwords are different!"
+#~ msgstr "Le password inserite sono differenti!"
+
+#, fuzzy
+#~ msgid "Exit without save your data"
+#~ msgstr "Uscire senza salvare?"
+
+#~ msgid "Error writing file: %s"
+#~ msgstr "Errore nella scrittura del file: %s"
+
+#~ msgid "Exec Somax-_NextSong"
+#~ msgstr "Esegui Somax-_NextSong"
+
+#~ msgid "Run as user"
+#~ msgstr "Gira come utente"
+
+#, fuzzy
+#~ msgid "Run as group"
+#~ msgstr "Gira come utente"
+
+#~ msgid "Start in background"
+#~ msgstr "Parti in background"
+
+#~ msgid "Debug Level"
+#~ msgstr "Livello di Debug"
+
+#~ msgid "Disactive"
+#~ msgstr "Disattiva"
+
+#~ msgid "Only Error"
+#~ msgstr "Solo errori"
+
+#~ msgid "Error and Warning"
+#~ msgstr "Errori e Indicazioni"
+
+#~ msgid "Info, Error and Warning"
+#~ msgstr "Informazioni, errori e indicazioni"
+
+#~ msgid "Debug (for developers)"
+#~ msgstr "Debug (solo per sviluppatori)"
+
+#~ msgid "File for logging"
+#~ msgstr "File di log"
+
+#~ msgid "File for pid"
+#~ msgstr "File di Pid"
+
+#~ msgid "File of Palinsesto"
+#~ msgstr "File di Palinsesto"
+
+#~ msgid "File of Spot"
+#~ msgstr "File di Spot"
+
+#~ msgid "Xml Syntax"
+#~ msgstr "Sintassi XML"
+
+#~ msgid "Symbolic Links"
+#~ msgstr "Link Simbolici"
+
+#~ msgid "Path Modules"
+#~ msgstr "Directory dei moduli"
+
+#~ msgid "Admin interface"
+#~ msgstr "Interfaccia di amministrazione"
+
+#~ msgid "Use Unix Socket"
+#~ msgstr "Usa Socket UNIX"
+
+#~ msgid "Unix Socket Path"
+#~ msgstr "Path dello Unix Socket"
+
+#~ msgid "Server Binding"
+#~ msgstr "Interfaccia di Binding"
+
+#~ msgid "Port of admin"
+#~ msgstr "Porta di amministrazione"
+
+#~ msgid "Number of Listens"
+#~ msgstr "Numbero di ascoltatori"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "(Re)Password"
+#~ msgstr "(Ri)Password"
+
+#~ msgid "Use SSL"
+#~ msgstr "Usa SSL"
+
+#~ msgid "SSL Certificate"
+#~ msgstr "Certificato SSL"
+
+#~ msgid "SSL Private Key"
+#~ msgstr "Chiave privata SSL"
+
+#~ msgid "Songs/Spots"
+#~ msgstr "Canzoni/Spot"
+
+#~ msgid "Player"
+#~ msgstr "Programma Audio"
+
+#~ msgid "Default program"
+#~ msgstr "Programma di default"
+
+#~ msgid "Options of default program"
+#~ msgstr "Opzioni al programma di default"
+
+#~ msgid "Stream program"
+#~ msgstr "Programma per gli stream"
+
+#~ msgid "Options of stream program"
+#~ msgstr "Opzioni al programma di stream"
+
+#~ msgid "Distribuited FS"
+#~ msgstr "FS distribuito"
+
+#~ msgid "Distribuited FileSystem"
+#~ msgstr "FileSystem distribuito"
+
+#~ msgid "activated"
+#~ msgstr "attivata"
+
+#~ msgid "Distribuited Paths"
+#~ msgstr "Elenco filesystem distribuito"
+
+#~ msgid "AllowDeny Hosts"
+#~ msgstr "Host Autorizzati e Non Autorizzati"
+
+#~ msgid "Allow Hosts"
+#~ msgstr "Host Autorizzati"
+
+#~ msgid "Deny Hosts"
+#~ msgstr "Host Non Autorizzati"
+
+#~ msgid "Error opening file: %s"
+#~ msgstr "Errore nell'apertura del file: %s"
+
+#~ msgid "Error opening file: /etc/somad/soma.cfg"
+#~ msgstr "Errore nell'apertura del file: /etc/somad/soma.cfg"
+
+#~ msgid "Add Host"
+#~ msgstr "Aggiungi un Host"
+
+#~ msgid "Search your file"
+#~ msgstr "Cerca il file"
+
+#~ msgid "Search your directory"
+#~ msgstr "Cerca la cartella"
+
+#, fuzzy
+#~ msgid "<b>Next Item</b>"
+#~ msgstr "<b>Stream</b>"
+
+#~ msgid "_Remote Add"
+#~ msgstr "Aggiungi _Remota"
+
+#~ msgid "_Local Add"
+#~ msgstr "Aggiungi _Locale"
+
+#~ msgid "Memory!"
+#~ msgstr "Memoria!"
+
+#~ msgid "Error opening config file!"
+#~ msgstr "Errore nell'apertura del file di configurazione!"
+
+#, fuzzy
+#~ msgid "Prespot:"
+#~ msgstr "Elenco Spot"
+
+#, fuzzy
+#~ msgid "Postspot:"
+#~ msgstr "Elenco Spot"
+
+#~ msgid "N. Songs:"
+#~ msgstr "N. Canzoni:"
+
+#~ msgid "N. Spots:"
+#~ msgstr "N. Spot:"
+
+#~ msgid "Add Files"
+#~ msgstr "Aggiungi file"
+
+#~ msgid "Add Directories"
+#~ msgstr "Aggiungi cartella"
+
+#~ msgid "_Add"
+#~ msgstr "_Aggiungi"
+
+#~ msgid "Error memory."
+#~ msgstr "Errore di Memoria."
+
+#~ msgid "Thread error."
+#~ msgstr "Errore nei thread!"
+
+#~ msgid "Search jingle file"
+#~ msgstr "Cerca il file di jingle"
+
+#~ msgid "Save your data?"
+#~ msgstr "Salvare i dati inseriti?"
+
+#~ msgid "Somad spot file syntax error"
+#~ msgstr "Il file di Spot ha una sintassi errata"
+
+#~ msgid "Y"
+#~ msgstr "A"
+
+#~ msgid "M"
+#~ msgstr "M"
+
+#~ msgid "D"
+#~ msgstr "G"
+
+#~ msgid "day"
+#~ msgstr "giorno"
+
+#~ msgid "_Add Remove Directory"
+#~ msgstr "Aggiungi una cartella _remota"
+
+#~ msgid "Somad Spot File syntax error"
+#~ msgstr "Il file di Spot di somad ha una sintassi errata"
+
+#~ msgid "Save your data"
+#~ msgstr "Salva i dati inseriti"
+
+#~ msgid "Your data saved!"
+#~ msgstr "Dati salvati!"
+
+#~ msgid "Pipe error!"
+#~ msgstr "Errore di pipe!"
+
+#~ msgid "Fork error!"
+#~ msgstr "Errore di fork!"
